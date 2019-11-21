@@ -1,22 +1,128 @@
-.App {
-  text-align: center;
+.input-date {
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  padding: 0 8px;
 }
 
-.App-logo {
-  height: 40vmin;
+.input-phone-code {
+  height: 30px;
+  width: 100px;
 }
 
-.App-header {
-  background-color: #282c34;
+.input-select {
+  height: 30px;
+  width: 70%;
+}
+.react-select__dropdown-indicator {
+  padding: 8px 5px !important;
+}
+.react-select__control {
+  height: 30px;
+  min-height: 30px !important;
+}
+
+.react-select__value-container {
+  height: 30px !important;
+}
+
+.react-select__indicators {
+  height: 30px !important;
+}
+
+.react-select__indicator-separator {
+  width: 0 !important;
+}
+
+.input-text {
+  height: calc(1em + 0.75rem + 2px) !important;
+  font-size: 1rem !important;
+  line-height: 1.2rem !important;
+}
+.label-form {
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-weight: bold;
+}
+.label {
+  font-size: 0.8rem;
+  color: white;
+  font-weight: bold;
+}
+
+.line {
+  padding: 12px 0;
+  border-bottom: 1px solid #fff;
+}
+
+.container {
+  /* border: 10px solid #fff; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.page-active {
+  text-decoration: underline;
+}
+
+.page-link {
+  font-weight: 600;
+  background-color: transparent !important;
+  color: #fff !important;
+  border: none !important;
+  padding: 0 !important;
+  line-height: unset !important;
+}
+.next-link {
+  font-weight: 600;
+  color: #fff !important;
+}
+
+.previous-link {
+  font-weight: 600;
+  color: #fff;
+}
+
+.page {
+  margin: 0 6px;
+}
+
+.pagination {
+  text-align: center;
+  margin-bottom: 5px !important;
+}
+
+.font-white {
+  text-align: center;
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.btn-table {
+  margin: 0 3px;
+  height: 30px !important;
+  border-radius: 40px !important;
+  color: #000 !important;
+  box-shadow: 3px 5px 5px 2px rgba(0, 0, 0, 0.1);
+  line-height: 1rem !important;
+  font-size: 0.8rem !important;
+}
+
+.light-green {
+  background-color: #99fcf6 !important;
+}
+
+.light-purple {
+  background-color: #99b7ee !important;
+}
+
+.btn-submit {
+  margin: 5px 0;
+  background-color: #f3bddc !important;
+  color: #000 !important;
+  height: 30px;
+  line-height: 1 !important;
+  box-shadow: 3px 5px 5px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 40px !important;
 }
